@@ -1,11 +1,11 @@
 
-import { Heart, Flower, Sparkles } from "lucide-react";
+import { Flower } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 
 const BenefitsSection = () => {
   const benefits = [
     {
-      icon: <Heart className="w-12 h-12 text-[#683351] mb-4" />,
+      icon: <img src="/images/LOGOTIPO ROXO.png" alt="Elisama Logo" className="w-12 h-12 object-contain mb-4" />,
       title: "Autoestima nas Alturas",
       description: "Sinta-se mais confiante, amada e segura em todos os momentos. Eleve sua autoestima e descubra uma nova mulher dentro de você!"
     },
@@ -15,7 +15,7 @@ const BenefitsSection = () => {
       description: "Aprenda práticas seguras e naturais para cuidar da sua saúde íntima com carinho, prevenindo desconfortos e aumentando o prazer com consciência."
     },
     {
-      icon: <Sparkles className="w-12 h-12 text-[#683351] mb-4" />,
+      icon: <img src="/images/LOGOTIPO ROXO.png" alt="Elisama Logo" className="w-12 h-12 object-contain mb-4" />,
       title: "Autoconhecimento & Liberdade",
       description: "Desperte sensações adormecidas, quebre tabus e descubra um novo universo de liberdade e conexão com seu corpo."
     }
